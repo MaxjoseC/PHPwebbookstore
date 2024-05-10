@@ -1,0 +1,171 @@
+/* Estilos generales */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e6e6fa; /* Color lila base */
+    color: #333;
+}
+
+header {
+    background-color: #9370db; /* Púrpura */
+    padding: 20px 0;
+    text-align: center;
+}
+
+.header-image {
+    background-image: url('/BannerBiblioteca.jpg'); /* Ruta de la imagen */
+    background-size: cover;
+    background-position: top;
+    height: 300px; /* Altura deseada para el encabezado */
+    color: darkgray; /* Color del texto */
+    text-align: center;
+    padding-top: 50px; /* Ajusta el espacio superior según sea necesario */
+    box-sizing: border-box; /* Para incluir el padding en la altura total */
+}
+
+.header-image h1 {
+    margin-top: 0; /* Elimina el margen superior predeterminado del encabezado */
+}
+
+
+nav {
+    background-color: #8a2be2; /* Azul violeta */
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav a {
+    display: inline-block; /* Para que los botones sean cuadrados */
+    width: 120px; /* Ancho deseado */
+    height: 40px; /* Altura deseada */
+    line-height: 40px; /* Centrar el texto verticalmente */
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 1.2em;
+    border-radius: 10px; /* Bordes redondeados */
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: #00ffff; /* Cyan */
+}
+
+
+section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #9370db; /* Púrpura */
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+  
+}
+
+/* Estilos específicos para cada página */
+
+/* Estilos para la página de libros */
+#libros {
+    /* Agrega estilos específicos para la página de libros aquí */
+}
+
+/* Estilos para la página de autores */
+#autores {
+    /* Agrega estilos específicos para la página de autores aquí */
+}
+
+/* Estilos para la página de contacto */
+#contacto {
+    /* Agrega estilos específicos para la página de contacto aquí */
+    max-width: 100px; /* Por ejemplo, para limitar el ancho del formulario */
+    margin: 0 auto; /* Para centrar el formulario */
+}
+
+/* Estilos para el formulario de contacto */
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px -10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form input[type="submit"] {
+    background-color: #8a2be2; /* Azul violeta */
+    color: #fff;
+    border: none;
+    padding: 15px 25px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+form input[type="submit"]:hover {
+    background-color: #00ffff; /* Cyan */
+}
+
+.dropdown {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.dropbtn {
+    background-color: #8a2be2;
+    color: white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 10px 15px;
+}
+
+.dropbtn:hover {
+    background-color: #00ffff;
+}
+
+.dropdown-content {
+    display: none;
+    position: relative;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 5px;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.show {
+    display: block;
+}
